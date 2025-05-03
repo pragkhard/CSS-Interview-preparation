@@ -87,4 +87,80 @@ Media queries can be used to check many things, such as:
         }
         }
 
+🔹 All CSS Pseudo-Classes (:)
+-------------------------------
+        📌 User Action / UI State
+        :hover
+        :active
+        :focus
+        :focus-visible
+        :focus-within
+        :target
+        :enabled
+        :disabled
+        :checked
+        :indeterminate
+        :default
+        :valid
+        :invalid
+        :in-range
+        :out-of-range
+        :required
+        :optional
+        :read-only
+        :read-write
+        :placeholder-shown
+        📌 Structural / Tree-Related
+        :root
+        :empty
+        :first-child
+        :last-child
+        :only-child
+        :nth-child(n)
+        :nth-last-child(n)
+        :first-of-type
+        :last-of-type
+        :only-of-type
+        :nth-of-type(n)
+        :nth-last-of-type(n)
+        📌 Logical / Negation
+        :not(selector)
+        :is(selector)
+        :where(selector)
+        :has(selector) (experimental, supported in modern browsers)
+        📌 Link States
+        :link
+        :visited
+        :any-link
+        :local-link
+        📌 Language / Direction
+        :lang(language)
+        :dir(ltr|rtl)
+        📌 Miscellaneous
+        :fullscreen
+        :picture-in-picture
+        :defined (for custom elements)
+------------------------------------------------------------------------------------------------
+🔸 All CSS Pseudo-Elements (::)
+--------------------------------
+        📌 Content Insertion
+        ::before
+        ::after
+        📌 Text Styling
+        ::first-letter
+        ::first-line
+        ::selection
+        ::spelling-error
+        ::grammar-error
+        📌 Form Elements
+        ::placeholder
+        ::file-selector-button
+        📌 Lists and UI
+        ::marker
+        ::cue (for WebVTT captions)
+        ::cue-region
+        📌 Media and Dialogs
+        ::backdrop
+        ::slotted(selector) (for Shadow DOM)
+
 
