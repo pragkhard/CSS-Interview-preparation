@@ -1,3 +1,14 @@
+What are the features of CSS3?
+-------------------------------
+Features of CSS3
+* Animations.
+* Multiple Backgrounds & Gradient.
+* Multiple Column layouts.
+* Opacity.
+* Rounded Corner:
+* Selectors. Advanced
+
+
 How To Add CSS
 ---------------
 There are three ways of inserting a style sheet:
