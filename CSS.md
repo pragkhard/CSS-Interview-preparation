@@ -47,6 +47,22 @@ Note: z-index only works on positioned elements (position: absolute, position: r
 
 * Note: If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top.
 
+Overflow
+---------- 
+* The overflow property specifies what should happen if content overflows an element's box.
+* This property specifies whether to clip content or to add scrollbars when an element's content is too big to fit in a specified area.
+* Note: The overflow property only works for block elements with a specified height.
+* overflow-x and overflow-y to control horizontal and vertical overflow separately.
+
+        CSS overflow types:
+
+        visible – Default. Content spills out.
+        hidden – Extra content is clipped (no scroll).
+        scroll – Always shows scrollbars.
+        auto – Scrollbars appear only when needed.
+        clip – Clips content, no scroll allowed.
+
+
 What is a Media Query?
 ---------------------------
 Media queries can be used to check many things, such as:
@@ -65,7 +81,7 @@ Media queries can be used to check many things, such as:
         /* Extra large devices (large laptops and desktops, 1200px and up) */
         @media only screen and (min-width: 1200px) {...}
 
-Orientation: Portrait / Landscape
+        Orientation: Portrait / Landscape
         @media only screen and (orientation: landscape) { body {
         background-color: lightblue;
         }
