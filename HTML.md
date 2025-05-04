@@ -1,5 +1,6 @@
-#<!DOCTYPE html>
--------------------
+<!DOCTYPE html>
+====================
+
 <!DOCTYPE> tag is used to inform the browser about the version of HTML used in the document. It is called as the document type declaration (DTD).
 here are many type of HTML e.g. HTML 4.01 Strict, HTML 4.01 Transitional, HTML 4.01 Frameset, XHTML 1.0 Strict, XHTML 1.0 Transitional, XHTML 1.0 Frameset, XHTML 1.1 etc.
 The doctype declaration differs between HTML versions. the valid Doctype declaration for each version of HTML.
