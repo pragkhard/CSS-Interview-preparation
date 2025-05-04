@@ -34,6 +34,14 @@ What is CSS Box Model?
 ------------------------
 The CSS box model is essentially a box that wraps around every HTML Element. IT contains of margin, border, padding and the actual content.
 
+CSS Position
+-------------
+There are 5 types-
+
+* Static-HTML elements are positioned static by default.
+* Static positioned elements are not affected by the top, bottom, left, and right properties.
+* An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page.
+
 Difference between Relative and Absolute position?
 ----------------------------------------------------
 
@@ -188,5 +196,30 @@ Example-
 
 ![alt text](image-3.png)
 ![alt text](image-4.png)
+
+CSS opacity
+------------
+The opacity property specifies the opacity/ transparency of an element.
+
+CSS preprocessor
+-----------------
+* A CSS preprocessor is a program that lets you generate CSS from the preprocessor's own unique syntax.
+* CSS preprocessors make it easy to automate repetitive tasks, reduce the number of errors and code bloat, create reusable code snippets, and ensure backward compatibility.
+* Each CSS preprocessor has its own syntax that they compile into regular CSS so that browsers can render it on the client side. 
+
+Examples: Sass, Less & Stylus
+
+Transform
+----------
+The transform property applies a 2D or 3D transformation to an element. This property allows you to rotate, scale, move, skew, etc., elements.
+
+How does a browser deal with the css?
+--------------------------------------
+Uses another program called CSS parser to convert raw CSS into cssom and cssom is also tree ike structure where each node represents style of various elements and from js perspective you can think of DOM and CSSOM as represented by a single object by the name document and then you can use APIs on this document object to make changes to both DOM and CSSOM.
+We have HTML parser that loads HTML and creates DOM tree and then we have CSS parser that loads CSS file and then creates cssom tree.
+
+![alt text](image-5.png)
+
+
 
 
