@@ -38,6 +38,8 @@ CSS Position
 -------------
 There are 5 types-
 
+Static -
+----------
 * Static-HTML elements are positioned static by default.
 * Static positioned elements are not affected by the top, bottom, left, and right properties.
 * An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page.
@@ -50,6 +52,16 @@ Relative - position relative that means element relative to its current position
 Absolute - position absolute places an element relative to its parents position and changing the layout around it.
 
 ![alt text](image.png)
+
+Difference between Fixed and Sticky position?
+----------------------------------------------------
+
+* Element with position fixed property is fixed to the viewport and doesn't move irrespective of scrolling.
+* Fixed property never leaves the viewport position it was fixed too.
+
+* Element with position sticky property can scroll to an offset value provided by the user.
+* Sticky property leaves the viewport when its parents element scrolls off the viewport.
+
 
 Difference between visibility hidden and displaynone?
 ------------------------------------------------------
@@ -182,6 +194,12 @@ Media queries can be used to check many things, such as:
         ::backdrop
         ::slotted(selector) (for Shadow DOM)
 
+Advance selector
+-----------------
+        div p       /* Descendant */
+        div > p     /* Direct child */
+        div + p     /* Next sibling */
+        div ~ p     /* General sibling */
 
 Box-sizing-
 ------------
@@ -219,6 +237,19 @@ Uses another program called CSS parser to convert raw CSS into cssom and cssom i
 We have HTML parser that loads HTML and creates DOM tree and then we have CSS parser that loads CSS file and then creates cssom tree.
 
 ![alt text](image-5.png)
+
+In css, get detail understanding of specificity
+-------------------------------------------------
+Specificity is the set of rules of css follow in order to determine what the style of the elements should be Specificity means something is more specific then its has more weightage.
+
+Difference between JPEG, PNG, and SVG 
+---------------------------------------
+* JPEG is a raster format best for photographs and images with many colors. It uses lossy compression, which reduces file size but can slightly degrade quality. It doesn't support transparency.
+
+* PNG is also a raster format, but it uses lossless compression, preserving image quality. It's ideal for images that need transparency or sharp edges, like logos or UI elements.
+
+* SVG is a vector format, meaning it's made of paths and shapes instead of pixels. It's infinitely scalable without losing quality and is perfect for icons, logos, and illustrations. SVGs are also editable with code and support interactivity and animation.
+
 
 
 
