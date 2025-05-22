@@ -8,15 +8,18 @@ Features of CSS3
 * Rounded Corner:
 * Selectors. Advanced
 
+------------------------------------------------------------------------------------------------------
 
 How To Add CSS
 ---------------
 There are three ways of inserting a style sheet:
 
-•	External CSS-
+* External CSS-
+----------------
 To add a style sheet to HTML, we use the <link> tag in the header section of HTML page, like this:
  
-•	Internal CSS
+ * Internal CSS
+----------------
 If you do not want to have a separate style sheet then you can simply write your CSS in the head section of HTML page.
 
         <head>
@@ -24,15 +27,19 @@ If you do not want to have a separate style sheet then you can simply write your
         </style>
         </head>
 
-•	Inline CSS
+* Inline CSS
+----------------
 You can code the CSS along with the HTML tags itself.
 
         <p style="color:blue; font-size: 16px; margin:20px;">This is the content of my paragraph</p>
 
+------------------------------------------------------------------------------------------------------
 
 What is CSS Box Model?
 ------------------------
 The CSS box model is essentially a box that wraps around every HTML Element. IT contains of margin, border, padding and the actual content.
+
+------------------------------------------------------------------------------------------------------
 
 CSS Position
 -------------
@@ -62,12 +69,15 @@ Difference between Fixed and Sticky position?
 * Element with position sticky property can scroll to an offset value provided by the user.
 * Sticky property leaves the viewport when its parents element scrolls off the viewport.
 
+------------------------------------------------------------------------------------------------------
 
 Difference between visibility hidden and displaynone?
 ------------------------------------------------------
 
 * visibility:hidden - The element is in the DOM but its not visible.
 * display:none - The element is not in the DOM its does not exist inside the DOM.
+
+------------------------------------------------------------------------------------------------------
 
 Z-Index
 -----------
@@ -77,6 +87,8 @@ Z-Index
 Note: z-index only works on positioned elements (position: absolute, position: relative, position: fixed, or position: sticky) and flex items (elements that are direct children of display:flex elements).
 
 * Note: If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top.
+
+------------------------------------------------------------------------------------------------------
 
 Overflow
 ---------- 
@@ -93,6 +105,7 @@ Overflow
         auto – Scrollbars appear only when needed.
         clip – Clips content, no scroll allowed.
 
+------------------------------------------------------------------------------------------------------
 
 What is a Media Query?
 ---------------------------
@@ -117,6 +130,7 @@ Media queries can be used to check many things, such as:
         background-color: lightblue;
         }
         }
+------------------------------------------------------------------------------------------------------
 
 🔹 All CSS Pseudo-Classes (:)
 -------------------------------
@@ -171,7 +185,9 @@ Media queries can be used to check many things, such as:
         :fullscreen
         :picture-in-picture
         :defined (for custom elements)
-------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------
+
 🔸 All CSS Pseudo-Elements (::)
 --------------------------------
         📌 Content Insertion
@@ -201,6 +217,8 @@ Advance selector
         div + p     /* Next sibling */
         div ~ p     /* General sibling */
 
+------------------------------------------------------------------------------------------------------
+
 Box-sizing-
 ------------
 Without the CSS box-sizing Property
@@ -215,9 +233,13 @@ Example-
 ![alt text](image-3.png)
 ![alt text](image-4.png)
 
+------------------------------------------------------------------------------------------------------
+
 CSS opacity
 ------------
 The opacity property specifies the opacity/ transparency of an element.
+
+------------------------------------------------------------------------------------------------------
 
 CSS preprocessor
 -----------------
@@ -227,9 +249,13 @@ CSS preprocessor
 
 Examples: Sass, Less & Stylus
 
+------------------------------------------------------------------------------------------------------
+
 Transform
 ----------
 The transform property applies a 2D or 3D transformation to an element. This property allows you to rotate, scale, move, skew, etc., elements.
+
+------------------------------------------------------------------------------------------------------
 
 How does a browser deal with the css?
 --------------------------------------
@@ -238,9 +264,13 @@ We have HTML parser that loads HTML and creates DOM tree and then we have CSS pa
 
 ![alt text](image-5.png)
 
+------------------------------------------------------------------------------------------------------
+
 In css, get detail understanding of specificity
 -------------------------------------------------
 Specificity is the set of rules of css follow in order to determine what the style of the elements should be Specificity means something is more specific then its has more weightage.
+
+------------------------------------------------------------------------------------------------------
 
 Difference between JPEG, PNG, and SVG 
 ---------------------------------------
