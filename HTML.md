@@ -1,8 +1,8 @@
-<!DOCTYPE html>
-====================
+                <!DOCTYPE html>
+                ===============
 
 <!DOCTYPE>
- tag is used to inform the browser about the version of HTML used in the document. It is called as the document type declaration (DTD).
+tag is used to inform the browser about the version of HTML used in the document. It is called as the document type declaration (DTD).
 here are many type of HTML e.g. HTML 4.01 Strict, HTML 4.01 Transitional, HTML 4.01 Frameset, XHTML 1.0 Strict, XHTML 1.0 Transitional, XHTML 1.0 Frameset, XHTML 1.1 etc.
 The doctype declaration differs between HTML versions. the valid Doctype declaration for each version of HTML.
         HTML 5
@@ -35,16 +35,16 @@ Tag we are using in html5- figure, caption.
 
 ------------------------------------------------------------------------------------------------------
 
-If I do not put <!DOCTYPE html> will HTML 5 work?
-----------------------------------------------------
+        If I do not put <!DOCTYPE html> will HTML 5 work?
+        ----------------------------------------------------
 * No, the browser will not be able to identify that it is an HTML document and HTML 5 tags do not function properly.
 * If we are not written <!doctype> code will run perfectly. We are facing the problem at the time of Validation, search engine.
 * For example: new features & tags in HTML5 such as <article>,<footer>, <header>,<nav>, <section> may not be supported if the <!DOCTYPE> is not declared.
 
 ------------------------------------------------------------------------------------------------------
 
-<html lang="en-US">
-----------------------
+                <html lang="en-US">
+               ----------------------
 It basically a Lang attribute. Always use a lang attribute on the html tag to declare the default lang. of the text in the page. When the page contain in another lang, add a lang attribute to an element surrounding that content.
 Helpful in Search engine optimization.
 ------------------------------------------------------------------------------------------------------
@@ -83,8 +83,9 @@ what is semantic element?
 Diff between HTML Elements and Tags?
 -------------------------------------
 If there is some content between start tag and end tag of html then it is know as html element otherewise html tag.
-        <p></p> -Tag
-        <p>milestone creator</p>- Element
+               
+                <p></p> -Tag
+                <p>milestone creator</p>- Element
 
 ------------------------------------------------------------------------------------------------------
 
@@ -106,7 +107,7 @@ The viewport is the visible area of the web page. The viewport varies the device
 
 ------------------------------------------------------------------------------------------------------
 
-Diff <b> and <strong> or <i> and <em> tags?
+Diff  between <b> and <strong> or <i> and <em> tags?
 --------------------------------------------
 * <b> and <strong> both are used to bold the text but strong text will provide extra emphasis to the text.
 * <i> and <em> both are used to italic text but <em> text will provide extra emphasis to the text.
