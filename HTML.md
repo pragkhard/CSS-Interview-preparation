@@ -52,20 +52,15 @@ Helpful in Search engine optimization.
 Diff between Inline & Block level element?
 -------------------------------------------
 
-* Block level element-
----------------------
-Block level element always starts on a new line and takes up the full width available(Stretches out to the left and right as far as it can).
-Ex- <h1>, <p>, <div>, <li>
+* Block level element-> Block level element always starts on a new line and takes up the full width available(Stretches out to the left and right as far as it can).
 
-* Inline element-
-----------------
-Inline element does not start on a new line and only takes up as much width as necessary.
-Inline element does not accept width and height values as well as margin top and margin bottom.
-Ex- <span>, <a>, <img>
+                Ex- <h1>, <p>, <div>, <li>
 
-* Inline-block-
-----------------
-Inline-block it is the combination of the inline and block element. It does not start on new line but we can set width and height.
+* Inline element-> Inline element does not start on a new line and only takes up as much width as necessary. Inline element does not accept width and height values as well as margin top and margin bottom.
+
+                Ex- <span>, <a>, <img>
+
+* Inline-block- Inline-block it is the combination of the inline and block element. It does not start on new line but we can set width and height.
 
 ------------------------------------------------------------------------------------------------------
 
