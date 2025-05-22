@@ -1,6 +1,5 @@
-                <!DOCTYPE html>
-                ===============
-
+        <!DOCTYPE html>
+              
         * <!DOCTYPE> tag is used to inform the browser about the version of HTML used in the document. 
         It is called as the document type declaration (DTD).
         * here are many type of HTML e.g. HTML 4.01 Strict, HTML 4.01 Transitional, HTML 4.01 Frameset, 
@@ -47,12 +46,13 @@ Tag we are using in html5- figure, caption.
 
 ------------------------------------------------------------------------------------------------------
 
-                <html lang="en-US">
-               ----------------------
-                It basically a Lang attribute. Always use a lang attribute on the html tag to declare the 
-                default lang. of the text in the page. When the page contain in another lang, add a lang 
-                 attribute to an element surrounding that content.
-                Helpful in Search engine optimization.
+     <html lang="en-US">
+     ----------------------
+     It basically a Lang attribute. Always use a lang attribute on the html tag to declare the 
+     default lang. of the text in the page. When the page contain in another lang, add a lang 
+     attribute to an element surrounding that content.
+     Helpful in Search engine optimization.
+     
 ------------------------------------------------------------------------------------------------------
 
 Diff between Inline & Block level element?
